@@ -2,7 +2,7 @@ import Footer from './components/footer';
 import './App.css';
 import logo from './logo.svg';
 import { useState } from 'react';
-import { Header, About, Portfolio, Contact, Resume, Footer } from './components';
+import { Header, About, Portfolio, Contact, Resume, } from './components';
 import ParticlesBackground from "./scenes/global/ParticlesBackground";
 
 const App = () => {

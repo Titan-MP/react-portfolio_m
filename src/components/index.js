@@ -1,8 +1,14 @@
-import Header from "./Header";
-import About from "./About";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Resume from "./Resume";
-import Footer from "./Footer";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-export { Header, About, Portfolio, Contact, Resume, Footer };
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Libre+Baskerville&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Leckerli+One&family=Libre+Baskerville&family=Raleway:wght@100&display=swap');
+
+@layer base{
+  html{
+    font-family: 'Raleway', sans-serif;
+  }
+  }
+
+
