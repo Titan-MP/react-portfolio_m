@@ -1,3 +1,4 @@
+import Footer from './components/footer';
 import './App.css';
 import logo from './logo.svg';
 import { useState } from 'react';
