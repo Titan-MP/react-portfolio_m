@@ -1,29 +1,28 @@
+import Navigation from './components/Navigation';
+import Home from './components/Home';
+import SocialLinks from './components/SocialLinks';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 import Footer from './components/footer';
-import './App.css';
-import logo from './logo.svg';
-import { useState } from 'react';
-import { Header, About, Portfolio, Contact, Resume, } from './components';
-import ParticlesBackground from "./scenes/global/ParticlesBackground";
+import '../src/index.css';
 
-const App = () => {
-  const [page, setPage] = useState('portfolio');
 
-  return <>
-    <ParticlesBackground />
-    <Header setPage = {setPage} />
 
-    {
-      page === 'about' ?
-        <About /> :
-      page === 'portfolio' ?
-        <Portfolio /> :
-      page === 'contact' ?
-        <Contact /> : <Resume />
-    }
-
-    <Footer />
-  </>
+function App() {
+  return (
+    <div className="App">
+      <Navigation/>
+      <Home/>
+      <SocialLinks/>
+      <About/>
+      <Portfolio/>
+      <Experience/>
+      <Contact/>
+      <Footer/>
+    </div>
+  );
 }
-
 
 export default App;

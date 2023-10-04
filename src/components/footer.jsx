@@ -9,7 +9,7 @@ const Icons = [
         <FaLinkedin size={30} />
       </>
     ),
-    href: 'https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/',
+    href: 'https://www.linkedin.com/in/marc-rhymaun-6580a1273/',
     style: 'rounded-tr-md'
   },
   {
@@ -19,7 +19,7 @@ const Icons = [
         <FaGithub size={30} />
       </>
     ),
-    href: 'https://github.com/QuitoMusic',
+    href: 'https://github.com/Titan-MP',
   },
 ];
 
@@ -36,7 +36,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <p className="text-center pb-7">©2023 QuitoMusic</p>
+        <p className="text-center pb-7">©2023 Titan-MP</p>
       </div>
     </footer>
   );
