@@ -10,39 +10,39 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: 
-      href:
-      href2: 
+      src: Catchbreathe,
+      href: 'https://willzealot.github.io/Catchmybreathe/',
+      href2: 'https://github.com/WillZealot/Catchmybreathe',
     },
     {
       id: 2,
-      src: 
-      href ,
-      href2: 
+      src: TakeAHike,
+      href: 'https://take-a-hike-quito-2bdfd3666c8e.herokuapp.com/',
+      href2: 'https://github.com/QuitoMusic/Take_A_Hike',
     },
     {
       id: 3,
-      src: 
-      href 
-      href2: 
+      src: JATE,
+      href: 'https://pwajate-text-editor-64e0b83af6c5.herokuapp.com/',
+      href2: 'https://github.com/QuitoMusic/PWA_Text_Editor',
     },
     {
       id: 4,
-      src: wd,
-      href: 
-      href2 
+      src: weatherDashboard,
+      href: 'https://quitomusic.github.io/Weather_Dashboard/',
+      href2: 'https://github.com/QuitoMusic/Weather_Dashboard',
     },
     {
       id: 5,
-      src: Cz,
-      href: ' ',
-      href2: '_',
+      src: CodingQuiz,
+      href: 'https://quitomusic.github.io/UCF_Coding_Quiz_Challenge_/ ',
+      href2: 'https://github.com/QuitoMusic/UCF_Coding_Quiz_Challenge_',
     },
     {
       id: 6,
-      src: N,
-      href: '/',
-      href2: 
+      src: NoteTaker,
+      href: 'https://notestaker-ucf-f955702f5072.herokuapp.com/',
+      href2: 'https://github.com/QuitoMusic/NoteTaker',
     },
   ];
 
