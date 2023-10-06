@@ -64,7 +64,7 @@ If you would like to contribute as a developer, you can submit a pull request. B
 
 
 ## Deployment Link (GitHub Pages)
-https://titan-mp.github.io/react-portfolio/
+https://titan-mp.github.io/react-portfolio_m/
 
 
 ## Github Repository
