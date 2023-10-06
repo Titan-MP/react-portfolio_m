@@ -9,7 +9,7 @@ const Icons = [
         <FaLinkedin size={30} />
       </>
     ),
-    href: 'https://www.linkedin.com/in/marc-rhymaun-6580a1273/',
+    href: 'https://www.linkedin.com/in/marcrhymaun/',
     style: 'rounded-tr-md'
   },
   {
