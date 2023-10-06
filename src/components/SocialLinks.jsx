@@ -12,7 +12,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'www.linkedin.com/in/marc-rhymaun-6580a1273',
+            href: 'www.linkedin.com/in/marc-rhymaun',
             style: 'rounded-tr-md'
         },
         {
