@@ -30,7 +30,7 @@ const Contact = () => {
 
     setEmailError('');
 
-    const formSubmissionUrl = "https://getform.io/f/6ffbc22e-bc4c-4553-b731-7db867bf3d5a";
+    const formSubmissionUrl = "https://getform.io/f/717c3e28-7e23-4000-9383-4cc6813b4844";
 
     const MAX_RETRIES = 3;
     let retryCount = 0;
@@ -78,7 +78,7 @@ const Contact = () => {
     <div name="contact" className="w-full h-screen bg-gradient-to-b from-gray-950 via-black to-gray-900 p-4 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 border-slate-50">Let's work together!</p>
+          <p className="text-4xl font-bold inline border-b-4 border-slate-50">Let's Make It Happen!</p>
           <p className="py-6">Submit the form to get in contact with me:</p>
           {submissionSuccess ? ( 
             <div className="text-white text-lg pb-3">
@@ -87,7 +87,7 @@ const Contact = () => {
           ) : (
             <div className="flex justify-center items-center">
               <form
-                action="https://getform.io/f/6ffbc22e-bc4c-4553-b731-7db867bf3d5a"
+                action="https://getform.io/f/717c3e28-7e23-4000-9383-4cc6813b4844"
                 method="POST"
                 className="flex flex-col w-full md:w-1/2"
                 onSubmit={handleSubmit}
@@ -130,7 +130,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="text-white bg-gradient-to-b from-yellow-950 to-yellow-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-125 duration-300"
+                  className="text-white bg-gradient-to-b from-blue-950 to-blue-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-125 duration-300"
                   disabled={submitting}
                 >
                   {submitting ? 'Submitting...' : 'Let\'s Talk!'}

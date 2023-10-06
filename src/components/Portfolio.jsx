@@ -1,48 +1,48 @@
 import React from 'react';
-import weatherDashboard from '../assets/weatherDashboard.png';
-import TakeAHike from '../assets/TakeAHike.png';
+import weatherEvents from '../assets/weatherEvents.png';
 import NoteTaker from '../assets/NoteTaker.png';
+import Yumster from '../assets/Yumster.png';
 import JATE from '../assets/JATE.png';
-import CodingQuiz from '../assets/CodingQuiz.png';
-import Catchbreathe from '../assets/catchbreathe.png';
+import WorkdayScheduler from '../assets/WorkdayScheduler.png';
+import Mocktrade from '../assets/Mocktrade.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: Catchbreathe,
-      href: 'https://willzealot.github.io/Catchmybreathe/',
-      href2: 'https://github.com/WillZealot/Catchmybreathe',
+      src: Yumster,
+      href: ' https://ymster-3e5525cf81e8.herokuapp.com/#homepage',
+      href2: 'https://github.com/Titan-MP/yumster.git',
     },
     {
       id: 2,
-      src: TakeAHike,
-      href: 'https://take-a-hike-quito-2bdfd3666c8e.herokuapp.com/',
-      href2: 'https://github.com/QuitoMusic/Take_A_Hike',
+      src: WorkdayScheduler,
+      href: 'https://titan-mp.github.io/Workday-Scheduler/',
+      href2: 'https://github.com/Titan-MP/Workday-Scheduler.git',
     },
     {
       id: 3,
       src: JATE,
       href: 'https://pwajate-text-editor-64e0b83af6c5.herokuapp.com/',
-      href2: 'https://github.com/QuitoMusic/PWA_Text_Editor',
+      href2: 'https://github.com/Titan-MP/Text-editor.git',
     },
     {
       id: 4,
-      src: weatherDashboard,
-      href: 'https://quitomusic.github.io/Weather_Dashboard/',
-      href2: 'https://github.com/QuitoMusic/Weather_Dashboard',
+      src: weatherEvents,
+      href: 'https://titan-mp.github.io/weather-event/',
+      href2: 'https://github.com/Titan-MP/weather-event.git',
     },
     {
       id: 5,
-      src: CodingQuiz,
-      href: 'https://quitomusic.github.io/UCF_Coding_Quiz_Challenge_/ ',
-      href2: 'https://github.com/QuitoMusic/UCF_Coding_Quiz_Challenge_',
+      src: NoteTaker,
+      href: 'https://notestaker-ucf-f955702f5072.herokuapp.com/',
+      href2: 'https://github.com/Titan-MP/Note-Taker.git',
     },
     {
       id: 6,
-      src: NoteTaker,
-      href: 'https://notestaker-ucf-f955702f5072.herokuapp.com/',
-      href2: 'https://github.com/QuitoMusic/NoteTaker',
+      src: Mocktrade,
+      href: 'https://evening-cove-86281-90fe49d2ca40.herokuapp.com',
+      href2: 'https://github.com/Titan-MP/Quit-Playing-Games-With-My-Stocks.git',
     },
   ];
 

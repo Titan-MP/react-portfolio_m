@@ -9,11 +9,11 @@ const About = () => {
         </div>
         <div className="max-w-6xl mx-auto"> 
           <p className="text-xl text-center sm:mt-3"> 
-            Hello and welcome! I'm Marc, a Full Stack Developer with expertise in various technologies. My passion is crafting exceptional web experiences. Proficient in HTML, CSS, JavaScript, and popular frameworks, I create functional and user-friendly websites. I'm committed to learning and thrive in collaborative environments. Beyond coding, I enjoy hardware projects, tech meetups, and sharing insights through my blog. Let's create web solutions that exceed expectations. If you need a dedicated Full Stack Developer, let's connect.
+          Hello there, and welcome to my corner of the digital world! I'm Marc, a budding Full Stack Developer who's enthusiastic about the world of technology. Creating exceptional web experiences is what drives me in this exciting journey as a beginner in the field. With a toolkit that includes HTML, CSS, JavaScript, and popular frameworks, I'm focused on honing my skills to craft websites that not only function seamlessly but also captivate users. I'm on a mission to learn and grow, eager to take on new challenges and contribute to collaborative projects. Outside of coding, I'm always up for hands-on hardware projects, attending tech meetups, and cherishing quality moments with my family. I believe that every connection made is an opportunity for growth, and I'm here to explore how I can contribute to your web projects. If you're in search of an enthusiastic beginner Full Stack Developer who shares your passion for progress, I'd love to connect. Together, we can work on bringing your web ideas to life. Let's take the first step toward making it happen.
           </p>
           <br />
           <p className="text-xl text-center  sm:mt-4"> 
-          My objective is to create resilient and user-centric web applications that not only meet but surpass client aspirations. When I'm not immersed in coding, you'll discover me delving into novel technologies, working closely with interdisciplinary teams, and relentlessly expanding the horizons of what the internet can provide.
+          My goal is to develop robust and user-focused web applications that not only meet but exceed the expectations of our clients. When I'm not passionately coding, you'll find me exploring emerging technologies, collaborating closely with diverse teams, and continuously pushing the boundaries of what technology can offer. I'm always up for a challenge, and I'm excited to see what we can achieve together.
           </p>
         </div>
       </div>
