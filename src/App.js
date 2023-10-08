@@ -6,13 +6,14 @@ import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/footer';
+import ParticlesBackground from "./scenes/ParticlesBackground";
 import '../src/index.css';
-
 
 
 function App() {
   return (
     <div className="App">
+      <ParticlesBackground />
       <Navigation/>
       <Home/>
       <SocialLinks/>
@@ -24,5 +25,5 @@ function App() {
     </div>
   );
 }
-
 export default App;
+
