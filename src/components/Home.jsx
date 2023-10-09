@@ -4,6 +4,7 @@ import Portrait from "../assets/Portrait.jpeg";
 import {Link} from 'react-scroll';
 
 
+
 import { HiArrowRight } from 'react-icons/hi';
 
 const Home = () => {
