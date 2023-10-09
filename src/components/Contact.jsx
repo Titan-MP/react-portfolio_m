@@ -78,7 +78,7 @@ const Contact = () => {
     <div name="contact" className="w-full h-screen bg-gradient-to-b from-gray-950 via-black to-gray-900 p-4 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 border-slate-50">Let's Make It Happen!</p>
+          <p className="text-4xl font-bold inline border-b-4 border-slate-50">Let's Create Something!</p>
           <p className="py-6">Submit the form to get in contact with me:</p>
           {submissionSuccess ? ( 
             <div className="text-white text-lg pb-3">
